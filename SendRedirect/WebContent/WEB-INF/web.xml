@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>demo</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    
+   <!--  <welcome-file>Hai.html</welcome-file> -->
+    <welcome-file>Registrations.html</welcome-file>
+    <welcome-file>ServletContex.html</welcome-file>
+  
+  </welcome-file-list>
+  
+<!--    <servlet>
+  <servlet-name>SendDemo</servlet-name>
+  <servlet-class>Send.Fetch</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>SendDemo</servlet-name>
+  <url-pattern>/register</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>H</servlet-name>
+  <servlet-class>com.test.Set</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>H</servlet-name>
+  <url-pattern>/Set</url-pattern>
+  </servlet-mapping>
+
+  
+  
+   <servlet>
+  <servlet-name>URL</servlet-name>
+  <servlet-class>Send.UrlRedirecting</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>URL</servlet-name>
+  <url-pattern>/Url</url-pattern>
+  </servlet-mapping>
+ 
+ <servlet>
+  <servlet-name>URL1</servlet-name>
+  <servlet-class>Send.UrlRedirecting1</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>URL1</servlet-name>
+  <url-pattern>/Url1</url-pattern>
+  </servlet-mapping> -->
+  
+<!--   <servlet>
+  <servlet-name>Config</servlet-name>
+  <servlet-class>Send.Contex</servlet-class>
+  
+  <init-param>
+  <param-name>a</param-name>
+  <param-value>abcd</param-value>
+  </init-param>
+  
+  <init-param>
+  <param-name>b</param-name>
+  <param-value>bcda</param-value>
+  </init-param>
+  
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>Config</servlet-name>
+  <url-pattern>/contex</url-pattern>
+  </servlet-mapping>
+ -->
+ 
+  <!-- <context-param>
+   <param-name> aa</param-name>
+   <param-value> hello </param-value>
+  </context-param>
+  <context-param>
+   <param-name> ab</param-name>
+   <param-value> world </param-value>
+  </context-param>
+  <servlet>
+  <servlet-name>Contex</servlet-name>
+  <servlet-class>Send.ServletConfig</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>Contex</servlet-name>
+  <url-pattern>/contex</url-pattern>
+  </servlet-mapping>
+ -->
+   
+   
+   <servlet>
+  <servlet-name>DAO</servlet-name>
+  <servlet-class>Send.Create</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>DAO</servlet-name>
+  <url-pattern>/create</url-pattern>
+  </servlet-mapping>
+   
+   
+   <servlet>
+  <servlet-name>Select</servlet-name>
+  <servlet-class>Send.Select</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>Select</servlet-name>
+  <url-pattern>/select</url-pattern>
+  </servlet-mapping>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+</web-app>
